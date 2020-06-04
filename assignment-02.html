@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CS230 Simon Game</title>
+  <meta name="description" content="ThomasHenrySimonGame">
+  <meta name="Thomas Henry" content="SimonGame">
+
+  <link rel="stylesheet" href="assignment-02.CSS">
+  <!--https://www.webfx.com/blog/web-design/google-font-api-guide/ -->
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Tested on Firefox, Microsoft Edge and Google Chrome -->
+  <h1 style="font-family: Orbitron">Simon Game</h1>
+  <div id="container">
+    <button id ="greenButton" class="top left btn" style="background-color: green" ></button>
+    <button id ="redButton" class="top right btn" ></button>
+    <div class="innerContainer">
+      <p id="highscore">0</p>
+      <input type="button" class="startButton" style="font-family: Orbitron" id="start" value="Start"></input>
+      <p id="current">0</p>
+    </div>
+    <span id="onOff"></span>
+    <button id ="blueButton" class="bottom left btn"></button>
+    <button id ="yellowButton" class="bottom right btn"></button>
+  </div>
+  <p id="inputArrayTest"></p>
+  <!--script placed below elements to allow elements to be declared -->
+<script src="assignment-02.js"></script>
+</body>
+</html>
